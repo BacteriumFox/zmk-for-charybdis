@@ -30,10 +30,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC    &kp F1           &kp F2           &kp F3           &kp F4            &kp F5               &kp F6    &kp F7     &kp F8  &kp F9  &kp F10               &kp BACKSPACE
-&kp TAB    &kp F11          &kp UP_ARROW     &kp F12          &kp C_VOLUME_UP   &bt BT_NXT           &kp HOME  &kp PG_UP  &none   &trans  &kp CAPS              &kp DELETE
-&kp LSHFT  &kp LEFT         &kp DOWN         &kp RIGHT        &kp C_VOL_DN      &bt BT_CLR           &kp END   &kp PG_DN  &none   &none   &trans                &kp GRAVE
-&kp LCTRL  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG   &trans               &to 0     &to 1      &none   &none   &kp NON_US_BACKSLASH  &kp ENTER
+&kp ESC    &kp F1           &kp F2           &kp F3           &kp F4            &kp F5               &kp F6    &kp F7     &kp F8  &kp F9   &kp F10               &kp BACKSPACE
+&kp TAB    &kp F11          &kp UP_ARROW     &kp F12          &kp C_VOLUME_UP   &bt BT_NXT           &kp HOME  &kp PG_UP  &none   &kp F13  &kp CAPS              &kp DELETE
+&kp LSHFT  &kp LEFT         &kp DOWN         &kp RIGHT        &kp C_VOL_DN      &bt BT_CLR           &kp END   &kp PG_DN  &none   &none    &trans                &kp GRAVE
+&kp LCTRL  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG   &trans               &to 0     &to 1      &none   &none    &kp NON_US_BACKSLASH  &kp ENTER
                                              &kp LEFT_ALT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans    &kp SPACE
                                                               &trans            &trans               &none
             >;
