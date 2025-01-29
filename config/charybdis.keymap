@@ -18,7 +18,7 @@ macros {
             compatible = "zmk,behavior-macro";
             label = "RGB_MACRO";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp R>
+            bindings = <&kp R>
             ,  <&macro_wait_time 500>;
         };
     };
