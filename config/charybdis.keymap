@@ -19,7 +19,8 @@ macros {
             label = "RGB_MACRO";
             #binding-cells = <0>;
             bindings = <&kp R>
-            ,  <&macro_wait_time 500>;
+            ,  <&macro_wait_time 500>
+            ,  <&none>;
         };
     };
 
