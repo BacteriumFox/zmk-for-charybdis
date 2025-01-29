@@ -19,7 +19,7 @@ macros {
             label = "RGB_MACRO";
             #binding-cells = <0>;
             bindings = <&macro_press &kp R>
-            ,  <&macro_wait_time 500>
+            ,  <&macro_wait_time 500>；
         };
     };
 
